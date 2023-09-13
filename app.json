@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "ICTS Security - Operação Logistica",
+    "slug": "icts-security-operacao-logistica",
+    "version": "1.0.0",
+    "scheme": "icts-logistica",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#072F5F"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.security.logistics.icts",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.security.logistics.icts",
+      "versionCode": 1,
+      "compileSdkVersion": 29,
+      "targetSdkVersion": 29,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#072F5F"
+      },
+      "permissions": [
+        "ACCESS_BACKGROUND_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_LOCATION_EXTRA_COMMANDS",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB5VtNy1zORIC13Sl7S_DKwPzUlTP-X5C0"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b961d2b1-f763-4f5b-9e4b-8c1c37b035fb"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1f812e2f-4e3a-449a-b695-c63a93cc9326"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "cli": {
+    "version": ">= 3.11.0"
+  },
+  "build": {
+    "development": {
+      "channel": "development",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "ENV_FILE": ".env.development"
+      }
+    },
+    "homologation": {
+      "channel": "homologation",
+      "android": {},
+      "ios": {},
+      "env": {
+        "ENV_FILE": ".env.homologation"
+      }
+    },
+    "production": {
+      "channel": "production",
+      "android": {},
+      "ios": {},
+      "env": {
+        "ENV_FILE": ".env.production"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
